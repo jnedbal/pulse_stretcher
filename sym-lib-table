@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pulse_stretcher-rescue)(type Legacy)(uri ${KIPRJMOD}/pulse_stretcher-rescue.lib)(options "")(descr ""))
+)

@@ -63,7 +63,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 4500 8100 4400
 $Comp
-L pulse_stretcher-rescue:GND #PWR022
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR022
 U 1 1 590C9A77
 P 6100 5800
 F 0 "#PWR022" H 6100 5550 50  0001 C CNN
@@ -74,7 +74,7 @@ F 3 "" H 6100 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR031
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR031
 U 1 1 590C9A93
 P 8100 6000
 F 0 "#PWR031" H 8100 5750 50  0001 C CNN
@@ -109,11 +109,9 @@ F 10 "1.85" H 3300 10200 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 10000 2400 10000
-Wire Wire Line
 	2100 10000 2100 10200
 $Comp
-L pulse_stretcher-rescue:GND #PWR04
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR04
 U 1 1 59102EA1
 P 2100 10200
 F 0 "#PWR04" H 2100 9950 50  0001 C CNN
@@ -123,27 +121,6 @@ F 3 "" H 2100 10200 50  0000 C CNN
 	1    2100 10200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C3
-U 1 1 59102EC4
-P 2400 10400
-F 0 "C3" H 2425 10500 50  0000 L CNN
-F 1 "1uC" H 2425 10300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2438 10250 50  0001 C CNN
-F 3 "" H 2400 10400 50  0000 C CNN
-F 4 "GRM188R61E105K" H 2400 10400 60  0001 C CNN "Part Number"
-F 5 "Murata" H 2400 10400 60  0001 C CNN "Manufacturer"
-F 6 "0603" H 2400 10400 60  0001 C CNN "Package"
-F 7 "Farnell" H 2400 10400 60  0001 C CNN "Supplier"
-F 8 "1828802" H 2400 10400 60  0001 C CNN "Order Code"
-F 9 "1μF/16V/10mΩ capacitor" H 2400 10400 60  0001 C CNN "Note"
-F 10 "0.09" H 2400 10400 60  0001 C CNN "Price"
-	1    2400 10400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 10250 2400 10000
-Connection ~ 2400 10000
 $Comp
 L Device:R R6
 U 1 1 59103062
@@ -204,7 +181,7 @@ Connection ~ 4200 10800
 Wire Wire Line
 	4950 7500 4950 7400
 $Comp
-L pulse_stretcher-rescue:GND #PWR013
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR013
 U 1 1 59104159
 P 4500 7600
 F 0 "#PWR013" H 4500 7350 50  0001 C CNN
@@ -217,7 +194,7 @@ $EndComp
 Connection ~ 3300 10800
 Connection ~ 4950 7000
 $Comp
-L pulse_stretcher-rescue:VPP #PWR012
+L pulse_stretcher-rescue:VPP-pulse_stretcher-rescue #PWR012
 U 1 1 591042EF
 P 4200 9900
 F 0 "#PWR012" H 4200 9750 50  0001 C CNN
@@ -246,7 +223,7 @@ F 10 "0.61" H 1150 7200 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:PWR_FLAG #FLG01
+L pulse_stretcher-rescue:PWR_FLAG-pulse_stretcher-rescue #FLG01
 U 1 1 5910475F
 P 3050 6900
 F 0 "#FLG01" H 3050 6975 50  0001 C CNN
@@ -262,7 +239,7 @@ U 1 1 5910483A
 P 2750 5400
 F 0 "J2" H 2850 5750 60  0000 L CNN
 F 1 "SMA" H 2850 5650 60  0000 L CNN
-F 2 "jakub:SMA" H 2925 5570 50  0000 C CNN
+F 2 "jakub:SMA_5.0mm" H 2925 5570 50  0000 C CNN
 F 3 "" H 2750 5400 60  0000 C CNN
 F 4 "5-1814400-1" H 2750 5400 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2750 5400 60  0001 C CNN "Manufacturer"
@@ -319,7 +296,7 @@ Connection ~ 2800 5400
 Connection ~ 2750 5400
 Connection ~ 2700 5400
 $Comp
-L pulse_stretcher-rescue:GND #PWR05
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR05
 U 1 1 59104DBD
 P 2700 5700
 F 0 "#PWR05" H 2700 5450 50  0001 C CNN
@@ -330,7 +307,7 @@ F 3 "" H 2700 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR06
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR06
 U 1 1 59104DF8
 P 3200 5700
 F 0 "#PWR06" H 3200 5450 50  0001 C CNN
@@ -346,7 +323,7 @@ U 1 1 59104E33
 P 12800 5300
 F 0 "J3" H 12950 5700 60  0000 L CNN
 F 1 "SMA" H 12950 5550 60  0000 L CNN
-F 2 "jakub:SMA" H 12975 5470 50  0000 C CNN
+F 2 "jakub:SMA_5.0mm" H 12975 5470 50  0000 C CNN
 F 3 "" H 12800 5300 60  0000 C CNN
 F 4 "5-1814400-1" H 12800 5300 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 12800 5300 60  0001 C CNN "Manufacturer"
@@ -369,7 +346,7 @@ Wire Wire Line
 Connection ~ 12800 5300
 Connection ~ 12750 5300
 $Comp
-L pulse_stretcher-rescue:GND #PWR050
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR050
 U 1 1 591050F1
 P 12850 5600
 F 0 "#PWR050" H 12850 5350 50  0001 C CNN
@@ -385,7 +362,7 @@ Connection ~ 12850 5300
 Wire Wire Line
 	2700 5300 2700 5400
 $Comp
-L pulse_stretcher-rescue:PWR_FLAG #FLG02
+L pulse_stretcher-rescue:PWR_FLAG-pulse_stretcher-rescue #FLG02
 U 1 1 591056DE
 P 3050 7500
 F 0 "#FLG02" H 3050 7575 50  0001 C CNN
@@ -396,7 +373,7 @@ F 3 "" H 3050 7500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR020
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR020
 U 1 1 59105D98
 P 5350 2700
 F 0 "#PWR020" H 5350 2450 50  0001 C CNN
@@ -407,7 +384,7 @@ F 3 "" H 5350 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR033
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR033
 U 1 1 59105F42
 P 8500 2700
 F 0 "#PWR033" H 8500 2450 50  0001 C CNN
@@ -418,8 +395,6 @@ F 3 "" H 8500 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 10550 2400 10800
-Wire Wire Line
 	2700 10400 2600 10400
 Wire Wire Line
 	2600 10400 2600 10000
@@ -427,7 +402,7 @@ Connection ~ 2600 10000
 Wire Wire Line
 	8700 6850 8700 7000
 $Comp
-L pulse_stretcher-rescue:GND #PWR035
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR035
 U 1 1 5AA65162
 P 8700 7000
 F 0 "#PWR035" H 8700 6750 50  0001 C CNN
@@ -456,7 +431,7 @@ F 10 "0.003" H 3300 5350 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR039
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR039
 U 1 1 5AAA8B48
 P 9500 7550
 F 0 "#PWR039" H 9500 7300 50  0001 C CNN
@@ -525,10 +500,10 @@ F 10 "0.4" H 4500 7000 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C6
 U 1 1 5AAABF5D
 P 4100 7250
-F 0 "C7" H 4125 7350 50  0000 L CNN
+F 0 "C6" H 4125 7350 50  0000 L CNN
 F 1 "1uC" H 4125 7150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 7100 50  0001 C CNN
 F 3 "" H 4100 7250 50  0000 C CNN
@@ -547,7 +522,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5100 7500 5100
 $Comp
-L pulse_stretcher-rescue:GND #PWR027
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR027
 U 1 1 5AAAE37B
 P 7450 2700
 F 0 "#PWR027" H 7450 2450 50  0001 C CNN
@@ -558,7 +533,7 @@ F 3 "" H 7450 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:VPP #PWR026
+L pulse_stretcher-rescue:VPP-pulse_stretcher-rescue #PWR026
 U 1 1 5AAAE3D2
 P 7450 2200
 F 0 "#PWR026" H 7450 2050 50  0001 C CNN
@@ -567,28 +542,6 @@ F 2 "" H 7450 2200 50  0000 C CNN
 F 3 "" H 7450 2200 50  0000 C CNN
 	1    7450 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x01 H2
-U 1 1 5AABB3D5
-P 1800 8500
-F 0 "H2" H 1800 8650 50  0000 C TNN
-F 1 "M3" V 1900 8500 50  0000 C TNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 1800 8375 50  0001 C CNN
-F 3 "" H 1800 8400 50  0001 C CNN
-	1    1800 8500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x01 H1
-U 1 1 5AABB503
-P 1800 8250
-F 0 "H1" H 1800 8400 50  0000 C TNN
-F 1 "M3" V 1900 8250 50  0000 C TNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 1800 8125 50  0001 C CNN
-F 3 "" H 1800 8150 50  0001 C CNN
-	1    1800 8250
-	-1   0    0    1   
 $EndComp
 Text Notes 3900 6500 0    60   ~ 0
 3.3V power supply
@@ -649,7 +602,7 @@ F 10 "0.003" H 1000 8900 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR02
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR02
 U 1 1 5AABCA54
 P 1000 9550
 F 0 "#PWR02" H 1000 9300 50  0001 C CNN
@@ -710,10 +663,10 @@ Wire Wire Line
 Wire Wire Line
 	8500 2600 8500 2650
 $Comp
-L pulse_stretcher-rescue:C C20
+L Device:C C19
 U 1 1 5ACF0BCE
 P 8500 2450
-F 0 "C20" H 8525 2550 50  0000 L CNN
+F 0 "C19" H 8525 2550 50  0000 L CNN
 F 1 "10n" H 8525 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8538 2300 50  0001 C CNN
 F 3 "" H 8500 2450 50  0000 C CNN
@@ -727,10 +680,10 @@ F 9 "10nF/50V X7R 0402 ceramic capacitor" H 8500 2450 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C21
+L pulse_stretcher-rescue:C-pulse_stretcher-rescue C20
 U 1 1 5ACF0BDA
 P 8800 2450
-F 0 "C21" H 8825 2550 50  0000 L CNN
+F 0 "C20" H 8825 2550 50  0000 L CNN
 F 1 "100n" H 8825 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 2300 50  0001 C CNN
 F 3 "" H 8800 2450 50  0000 C CNN
@@ -757,8 +710,6 @@ Wire Wire Line
 	7100 4300 7200 4300
 Wire Wire Line
 	12050 5000 12650 5000
-Wire Wire Line
-	2400 10000 2600 10000
 Wire Wire Line
 	4200 10400 4200 10450
 Wire Wire Line
@@ -791,8 +742,6 @@ Wire Wire Line
 	12750 5300 12800 5300
 Wire Wire Line
 	12850 5300 12850 5600
-Wire Wire Line
-	2400 10800 3300 10800
 Wire Wire Line
 	2600 10000 2700 10000
 Wire Wire Line
@@ -931,8 +880,8 @@ U 1 1 618DDDBD
 P 11200 800
 AR Path="/5CFAE850/618DDDBD" Ref="C?"  Part="1" 
 AR Path="/5D0691D6/618DDDBD" Ref="C?"  Part="1" 
-AR Path="/618DDDBD" Ref="C28"  Part="1" 
-F 0 "C28" V 11050 800 50  0000 C CNN
+AR Path="/618DDDBD" Ref="C27"  Part="1" 
+F 0 "C27" V 11050 800 50  0000 C CNN
 F 1 "100n" V 11350 800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 650 50  0001 C CNN
 F 3 "~" H 11200 800 50  0001 C CNN
@@ -1163,10 +1112,10 @@ Wire Wire Line
 Wire Wire Line
 	10750 1850 10750 1700
 $Comp
-L Device:C C30
+L Device:C C29
 U 1 1 618DDEA9
 P 11200 1700
-F 0 "C30" V 11350 1700 50  0000 C CNN
+F 0 "C29" V 11350 1700 50  0000 C CNN
 F 1 "1n" V 11050 1700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11238 1550 50  0001 C CNN
 F 3 "~" H 11200 1700 50  0001 C CNN
@@ -1206,10 +1155,10 @@ Wire Wire Line
 Wire Wire Line
 	11000 2250 10900 2150
 $Comp
-L Device:C C36
+L Device:C C35
 U 1 1 618DDEC2
 P 11200 7200
-F 0 "C36" V 11350 7200 50  0000 C CNN
+F 0 "C35" V 11350 7200 50  0000 C CNN
 F 1 "1n" V 11050 7200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11238 7050 50  0001 C CNN
 F 3 "~" H 11200 7200 50  0001 C CNN
@@ -1314,10 +1263,10 @@ Wire Wire Line
 	2300 7400 2050 7400
 Connection ~ 2050 7400
 $Comp
-L Device:C C4
+L Device:C C3
 U 1 1 619C2436
 P 3050 7200
-F 0 "C4" H 3075 7300 50  0000 L CNN
+F 0 "C3" H 3075 7300 50  0000 L CNN
 F 1 "10uV" H 3075 7100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3088 7050 50  0001 C CNN
 F 3 "" H 3050 7200 50  0000 C CNN
@@ -1332,10 +1281,10 @@ F 10 "0.19" H 3050 7200 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L Device:C C4
 U 1 1 619C2647
 P 3400 7200
-F 0 "C5" H 3425 7300 50  0000 L CNN
+F 0 "C4" H 3425 7300 50  0000 L CNN
 F 1 "10uV" H 3425 7100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3438 7050 50  0001 C CNN
 F 3 "" H 3400 7200 50  0000 C CNN
@@ -1395,7 +1344,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 7400 3400 7500
 $Comp
-L pulse_stretcher-rescue:GND #PWR09
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR09
 U 1 1 61A2BEB5
 P 3400 7500
 F 0 "#PWR09" H 3400 7250 50  0001 C CNN
@@ -1432,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 9100 4950 9000
 $Comp
-L pulse_stretcher-rescue:GND #PWR014
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR014
 U 1 1 61B25FD1
 P 4500 9200
 F 0 "#PWR014" H 4500 8950 50  0001 C CNN
@@ -1444,10 +1393,10 @@ F 3 "" H 4500 9200 50  0000 C CNN
 $EndComp
 Connection ~ 4950 8600
 $Comp
-L Device:C C8
+L Device:C C7
 U 1 1 61B25FF4
 P 4100 8850
-F 0 "C8" H 4125 8950 50  0000 L CNN
+F 0 "C7" H 4125 8950 50  0000 L CNN
 F 1 "1uC" H 4125 8750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 8700 50  0001 C CNN
 F 3 "" H 4100 8850 50  0000 C CNN
@@ -1579,7 +1528,7 @@ $EndComp
 Wire Wire Line
 	9400 5400 9400 5500
 $Comp
-L pulse_stretcher-rescue:GND #PWR037
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR037
 U 1 1 61F6636C
 P 9400 5500
 F 0 "#PWR037" H 9400 5250 50  0001 C CNN
@@ -1624,10 +1573,10 @@ Wire Wire Line
 Wire Wire Line
 	8850 5400 8850 4000
 $Comp
-L pulse_stretcher-rescue:C C22
+L pulse_stretcher-rescue:C-pulse_stretcher-rescue C21
 U 1 1 620A7626
 P 8850 3750
-F 0 "C22" H 8875 3850 50  0000 L CNN
+F 0 "C21" H 8875 3850 50  0000 L CNN
 F 1 "10n" H 8875 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8888 3600 50  0001 C CNN
 F 3 "" H 8850 3750 50  0000 C CNN
@@ -1668,7 +1617,7 @@ F 3 "~" H 7450 3700 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L pulse_stretcher-rescue:VPP #PWR028
+L pulse_stretcher-rescue:VPP-pulse_stretcher-rescue #PWR028
 U 1 1 620D4B2A
 P 7450 3400
 F 0 "#PWR028" H 7450 3250 50  0001 C CNN
@@ -1695,10 +1644,10 @@ VBB
 Text Label 12100 5000 0    50   ~ 0
 BUFFEREDOUT
 $Comp
-L Device:C C6
+L Device:C C5
 U 1 1 6190F593
 P 3900 5100
-F 0 "C6" H 3925 5200 50  0000 L CNN
+F 0 "C5" H 3925 5200 50  0000 L CNN
 F 1 "10n" H 3925 5000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 4950 50  0001 C CNN
 F 3 "" H 3900 5100 50  0000 C CNN
@@ -1768,7 +1717,7 @@ F 3 "" H 4150 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR011
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR011
 U 1 1 619568F2
 P 4150 5700
 F 0 "#PWR011" H 4150 5450 50  0001 C CNN
@@ -1801,7 +1750,7 @@ F 10 "0.003" H 4900 4250 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR016
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR016
 U 1 1 6198556F
 P 4900 4500
 F 0 "#PWR016" H 4900 4250 50  0001 C CNN
@@ -1906,7 +1855,7 @@ F 3 "" H 6500 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR024
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR024
 U 1 1 61AFE567
 P 6500 7350
 F 0 "#PWR024" H 6500 7100 50  0001 C CNN
@@ -1981,10 +1930,10 @@ F 10 "0.003" H 8200 6750 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C18
+L Device:C C17
 U 1 1 61CE2A55
 P 7950 7000
-F 0 "C18" H 7975 7100 50  0000 L CNN
+F 0 "C17" H 7975 7100 50  0000 L CNN
 F 1 "20p" H 7975 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7988 6850 50  0001 C CNN
 F 3 "" H 7950 7000 50  0000 C CNN
@@ -2006,7 +1955,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 7150 7950 7300
 $Comp
-L pulse_stretcher-rescue:GND #PWR029
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR029
 U 1 1 61D17075
 P 7950 7300
 F 0 "#PWR029" H 7950 7050 50  0001 C CNN
@@ -2017,10 +1966,10 @@ F 3 "" H 7950 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L Device:C C14
 U 1 1 61D33FFF
 P 6850 6750
-F 0 "C15" H 6875 6850 50  0000 L CNN
+F 0 "C14" H 6875 6850 50  0000 L CNN
 F 1 "10n" H 6875 6650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6888 6600 50  0001 C CNN
 F 3 "" H 6850 6750 50  0000 C CNN
@@ -2052,17 +2001,6 @@ Connection ~ 7200 4900
 Wire Wire Line
 	6700 5100 7000 5100
 Connection ~ 7000 5100
-$Comp
-L power:+3V3 #PWR038
-U 1 1 61E8680D
-P 9500 7050
-F 0 "#PWR038" H 9500 6900 50  0001 C CNN
-F 1 "+3V3" H 9515 7223 50  0000 C CNN
-F 2 "" H 9500 7050 50  0001 C CNN
-F 3 "" H 9500 7050 50  0001 C CNN
-	1    9500 7050
-	1    0    0    -1  
-$EndComp
 Text Notes 12400 4650 0    50   ~ 0
 Pulses 1.25V into 50Ω
 $Comp
@@ -2084,10 +2022,10 @@ F 10 "0.4" H 4500 8600 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C16
+L Device:C C15
 U 1 1 618E4F33
 P 7450 2450
-F 0 "C16" H 7475 2550 50  0000 L CNN
+F 0 "C15" H 7475 2550 50  0000 L CNN
 F 1 "10n" H 7475 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7488 2300 50  0001 C CNN
 F 3 "" H 7450 2450 50  0000 C CNN
@@ -2101,10 +2039,10 @@ F 9 "10nF/50V X7R 0402 ceramic capacitor" H 7450 2450 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C17
+L pulse_stretcher-rescue:C-pulse_stretcher-rescue C16
 U 1 1 618E53FB
 P 7750 2450
-F 0 "C17" H 7775 2550 50  0000 L CNN
+F 0 "C16" H 7775 2550 50  0000 L CNN
 F 1 "100n" H 7775 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7788 2300 50  0001 C CNN
 F 3 "" H 7750 2450 50  0000 C CNN
@@ -2118,10 +2056,10 @@ F 9 "100nF/50V X7R 0603 ceramic capacitor" H 7750 2450 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C13
+L Device:C C12
 U 1 1 6191F729
 P 5350 2450
-F 0 "C13" H 5375 2550 50  0000 L CNN
+F 0 "C12" H 5375 2550 50  0000 L CNN
 F 1 "10n" H 5375 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 2300 50  0001 C CNN
 F 3 "" H 5350 2450 50  0000 C CNN
@@ -2135,10 +2073,10 @@ F 9 "10nF/50V X7R 0402 ceramic capacitor" H 5350 2450 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C14
+L pulse_stretcher-rescue:C-pulse_stretcher-rescue C13
 U 1 1 6191F735
 P 5650 2450
-F 0 "C14" H 5675 2550 50  0000 L CNN
+F 0 "C13" H 5675 2550 50  0000 L CNN
 F 1 "100n" H 5675 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 2300 50  0001 C CNN
 F 3 "" H 5650 2450 50  0000 C CNN
@@ -2152,10 +2090,10 @@ F 9 "100nF/50V X7R 0603 ceramic capacitor" H 5650 2450 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C24
+L Device:C C23
 U 1 1 61953C0F
 P 9500 7300
-F 0 "C24" H 9525 7400 50  0000 L CNN
+F 0 "C23" H 9525 7400 50  0000 L CNN
 F 1 "10n" H 9525 7200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 7150 50  0001 C CNN
 F 3 "" H 9500 7300 50  0000 C CNN
@@ -2169,10 +2107,10 @@ F 9 "10nF/50V X7R 0402 ceramic capacitor" H 9500 7300 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C25
+L pulse_stretcher-rescue:C-pulse_stretcher-rescue C24
 U 1 1 61953C1B
 P 9800 7300
-F 0 "C25" H 9825 7400 50  0000 L CNN
+F 0 "C24" H 9825 7400 50  0000 L CNN
 F 1 "100n" H 9825 7200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9838 7150 50  0001 C CNN
 F 3 "" H 9800 7300 50  0000 C CNN
@@ -2186,10 +2124,10 @@ F 9 "100nF/50V X7R 0603 ceramic capacitor" H 9800 7300 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C26
+L Device:C C25
 U 1 1 61977A99
 P 10700 9000
-F 0 "C26" H 10725 9100 50  0000 L CNN
+F 0 "C25" H 10725 9100 50  0000 L CNN
 F 1 "1uC" H 10725 8900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10738 8850 50  0001 C CNN
 F 3 "" H 10700 9000 50  0000 C CNN
@@ -2204,10 +2142,10 @@ F 10 "0.09" H 10700 9000 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C27
+L Device:C C26
 U 1 1 619788A2
 P 11100 9000
-F 0 "C27" H 11125 9100 50  0000 L CNN
+F 0 "C26" H 11125 9100 50  0000 L CNN
 F 1 "1uC" H 11125 8900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 8850 50  0001 C CNN
 F 3 "" H 11100 9000 50  0000 C CNN
@@ -2222,10 +2160,10 @@ F 10 "0.09" H 11100 9000 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
+L Device:C C22
 U 1 1 61988908
 P 9400 5250
-F 0 "C23" H 9425 5350 50  0000 L CNN
+F 0 "C22" H 9425 5350 50  0000 L CNN
 F 1 "20p" H 9425 5150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9438 5100 50  0001 C CNN
 F 3 "" H 9400 5250 50  0000 C CNN
@@ -2239,10 +2177,10 @@ F 9 "20pF/50V C0G 0402 ceramic capacitor" H 9400 5250 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C34
+L pulse_stretcher-rescue:C-pulse_stretcher-rescue C33
 U 1 1 61990786
 P 11200 6300
-F 0 "C34" V 11050 6300 50  0000 C CNN
+F 0 "C33" V 11050 6300 50  0000 C CNN
 F 1 "100n" V 11350 6300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 6150 50  0001 C CNN
 F 3 "" H 11200 6300 50  0000 C CNN
@@ -2256,10 +2194,10 @@ F 9 "100nF/50V X7R 0603 ceramic capacitor" H 11200 6300 60  0001 C CNN "Note"
 	0    1    1    0   
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C35
+L Device:C C34
 U 1 1 619935FC
 P 11200 6750
-F 0 "C35" V 11050 6750 50  0000 C CNN
+F 0 "C34" V 11050 6750 50  0000 C CNN
 F 1 "10n" V 11350 6750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11238 6600 50  0001 C CNN
 F 3 "" H 11200 6750 50  0000 C CNN
@@ -2273,10 +2211,10 @@ F 9 "10nF/50V X7R 0402 ceramic capacitor" H 11200 6750 60  0001 C CNN "Note"
 	0    1    1    0   
 $EndComp
 $Comp
-L pulse_stretcher-rescue:C C29
+L Device:C C28
 U 1 1 61A71834
 P 11200 1250
-F 0 "C29" V 11050 1250 50  0000 C CNN
+F 0 "C28" V 11050 1250 50  0000 C CNN
 F 1 "10n" V 11350 1250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11238 1100 50  0001 C CNN
 F 3 "" H 11200 1250 50  0000 C CNN
@@ -2404,8 +2342,8 @@ U 1 1 61C16876
 P 11200 3400
 AR Path="/5CFAE850/61C16876" Ref="C?"  Part="1" 
 AR Path="/5D0691D6/61C16876" Ref="C?"  Part="1" 
-AR Path="/61C16876" Ref="C31"  Part="1" 
-F 0 "C31" V 11050 3400 50  0000 C CNN
+AR Path="/61C16876" Ref="C30"  Part="1" 
+F 0 "C30" V 11050 3400 50  0000 C CNN
 F 1 "100n" V 11350 3400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 3250 50  0001 C CNN
 F 3 "~" H 11200 3400 50  0001 C CNN
@@ -2447,10 +2385,10 @@ Wire Wire Line
 Wire Wire Line
 	10750 4450 10750 4300
 $Comp
-L Device:C C33
+L Device:C C32
 U 1 1 61C16899
 P 11200 4300
-F 0 "C33" V 11350 4300 50  0000 C CNN
+F 0 "C32" V 11350 4300 50  0000 C CNN
 F 1 "1n" V 11050 4300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11238 4150 50  0001 C CNN
 F 3 "~" H 11200 4300 50  0001 C CNN
@@ -2486,10 +2424,10 @@ Wire Wire Line
 Wire Wire Line
 	11000 4850 10900 4750
 $Comp
-L pulse_stretcher-rescue:C C32
+L Device:C C31
 U 1 1 61C168B4
 P 11200 3850
-F 0 "C32" V 11050 3850 50  0000 C CNN
+F 0 "C31" V 11050 3850 50  0000 C CNN
 F 1 "10n" V 11350 3850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11238 3700 50  0001 C CNN
 F 3 "" H 11200 3850 50  0000 C CNN
@@ -2509,10 +2447,10 @@ Wire Wire Line
 Wire Wire Line
 	11150 4650 11650 4650
 $Comp
-L Device:C C19
+L Device:C C18
 U 1 1 61E87BDF
 P 8200 2450
-F 0 "C19" H 8250 2550 50  0000 L CNN
+F 0 "C18" H 8250 2550 50  0000 L CNN
 F 1 "1n" H 8250 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8238 2300 50  0001 C CNN
 F 3 "~" H 8200 2450 50  0001 C CNN
@@ -2534,10 +2472,10 @@ Wire Wire Line
 Wire Wire Line
 	8200 2650 8500 2650
 $Comp
-L Device:C C12
+L Device:C C11
 U 1 1 61EE98F0
 P 5050 2450
-F 0 "C12" H 5100 2550 50  0000 L CNN
+F 0 "C11" H 5100 2550 50  0000 L CNN
 F 1 "1n" H 5100 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5088 2300 50  0001 C CNN
 F 3 "~" H 5050 2450 50  0001 C CNN
@@ -2608,7 +2546,7 @@ F 10 "0.003" H 7600 6750 60  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L pulse_stretcher-rescue:GND #PWR025
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR025
 U 1 1 61A7F679
 P 7350 7350
 F 0 "#PWR025" H 7350 7100 50  0001 C CNN
@@ -2625,28 +2563,6 @@ Wire Wire Line
 Connection ~ 7350 6750
 Wire Wire Line
 	7350 6750 7450 6750
-$Comp
-L Connector:Screw_Terminal_01x01 H4
-U 1 1 61AF74A2
-P 1800 9000
-F 0 "H4" H 1800 9150 50  0000 C TNN
-F 1 "M3" V 1900 9000 50  0000 C TNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 1800 8875 50  0001 C CNN
-F 3 "" H 1800 8900 50  0001 C CNN
-	1    1800 9000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x01 H3
-U 1 1 61AF7914
-P 1800 8750
-F 0 "H3" H 1800 8900 50  0000 C TNN
-F 1 "M3" V 1900 8750 50  0000 C TNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 1800 8625 50  0001 C CNN
-F 3 "" H 1800 8650 50  0001 C CNN
-	1    1800 8750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2000 8250 2100 8250
 Wire Wire Line
@@ -2667,7 +2583,7 @@ Wire Wire Line
 	2100 9000 2100 9100
 Connection ~ 2100 9000
 $Comp
-L pulse_stretcher-rescue:GND #PWR03
+L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR03
 U 1 1 61BA0C4B
 P 2100 9100
 F 0 "#PWR03" H 2100 8850 50  0001 C CNN
@@ -2696,10 +2612,10 @@ Wire Wire Line
 Wire Wire Line
 	4100 9100 4500 9100
 $Comp
-L Device:C C10
+L Device:C C9
 U 1 1 6196A3E8
 P 4950 7250
-F 0 "C10" H 4975 7350 50  0000 L CNN
+F 0 "C9" H 4975 7350 50  0000 L CNN
 F 1 "4u7E" H 4975 7150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 7100 50  0001 C CNN
 F 3 "" H 4950 7250 50  0000 C CNN
@@ -2714,10 +2630,10 @@ F 10 "0.09" H 4950 7250 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Device:C C10
 U 1 1 6196BCB7
 P 4950 8850
-F 0 "C11" H 4975 8950 50  0000 L CNN
+F 0 "C10" H 4975 8950 50  0000 L CNN
 F 1 "4u7E" H 4975 8750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 8700 50  0001 C CNN
 F 3 "" H 4950 8850 50  0000 C CNN
@@ -2732,10 +2648,10 @@ F 10 "0.09" H 4950 8850 60  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C8
 U 1 1 61970FEE
 P 4500 10400
-F 0 "C9" H 4525 10500 50  0000 L CNN
+F 0 "C8" H 4525 10500 50  0000 L CNN
 F 1 "4u7E" H 4525 10300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4538 10250 50  0001 C CNN
 F 3 "" H 4500 10400 50  0000 C CNN
@@ -2749,4 +2665,61 @@ F 10 "0.09" H 4500 10400 60  0001 C CNN "Price"
 	1    4500 10400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 618FE095
+P 1900 8250
+F 0 "H1" V 1950 8450 50  0000 C CNN
+F 1 "M4" V 1850 8450 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 1900 8250 50  0001 C CNN
+F 3 "~" H 1900 8250 50  0001 C CNN
+	1    1900 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61907DC5
+P 1900 8500
+F 0 "H2" V 1950 8700 50  0000 C CNN
+F 1 "M4" V 1850 8700 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 1900 8500 50  0001 C CNN
+F 3 "~" H 1900 8500 50  0001 C CNN
+	1    1900 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61908304
+P 1900 8750
+F 0 "H3" V 1950 8950 50  0000 C CNN
+F 1 "M4" V 1850 8950 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 1900 8750 50  0001 C CNN
+F 3 "~" H 1900 8750 50  0001 C CNN
+	1    1900 8750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 619088EB
+P 1900 9000
+F 0 "H4" V 1950 9200 50  0000 C CNN
+F 1 "M4" V 1850 9200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 1900 9000 50  0001 C CNN
+F 3 "~" H 1900 9000 50  0001 C CNN
+	1    1900 9000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR038
+U 1 1 61E8680D
+P 9500 7050
+F 0 "#PWR038" H 9500 6900 50  0001 C CNN
+F 1 "+3V3" H 9515 7223 50  0000 C CNN
+F 2 "" H 9500 7050 50  0001 C CNN
+F 3 "" H 9500 7050 50  0001 C CNN
+	1    9500 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 10000 2600 10000
 $EndSCHEMATC

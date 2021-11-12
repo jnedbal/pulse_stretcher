@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/211105_pulse_stretcher_2_0/pulse_stretcher.sch</source>
-    <date>Thu 11 Nov 2021 21:48:21 GMT</date>
+    <date>Fri 12 Nov 2021 12:05:24 GMT</date>
     <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -35,7 +35,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>590C9745</tstamp>
     </comp>
-    <comp ref="R12">
+    <comp ref="R14">
       <value>49R9</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -66,22 +66,6 @@
       <libsource lib="jakub" part="MAX1735" description="200mA, Negative-Output, Low-Dropout Linear Regulator in SOT23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59102D9B</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>1uC</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="Manufacturer">Murata</field>
-        <field name="Note">1μF/16V/10mΩ capacitor</field>
-        <field name="Order Code">1828802</field>
-        <field name="Package">0603</field>
-        <field name="Part Number">GRM188R61E105K</field>
-        <field name="Price">0.09</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>59102EC4</tstamp>
     </comp>
     <comp ref="R6">
       <value>47k</value>
@@ -133,7 +117,7 @@
     </comp>
     <comp ref="J2">
       <value>SMA</value>
-      <footprint>jakub:SMA</footprint>
+      <footprint>jakub:SMA_5.0mm</footprint>
       <fields>
         <field name="Manufacturer">TE Connectivity</field>
         <field name="Note">SMA coaxial right angle jack</field>
@@ -165,7 +149,7 @@
     </comp>
     <comp ref="J3">
       <value>SMA</value>
-      <footprint>jakub:SMA</footprint>
+      <footprint>jakub:SMA_5.0mm</footprint>
       <fields>
         <field name="Manufacturer">TE Connectivity</field>
         <field name="Note">SMA coaxial right angle jack</field>
@@ -195,7 +179,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AAA89A3</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R15">
       <value>49R9</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -243,7 +227,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AAAA8A3</tstamp>
     </comp>
-    <comp ref="C7">
+    <comp ref="C6">
       <value>1uC</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -260,7 +244,7 @@
       <tstamp>5AAABF5D</tstamp>
     </comp>
     <comp ref="D1">
-      <value>orange</value>
+      <value>green</value>
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <fields>
         <field name="Manufacturer">Kingbright</field>
@@ -276,14 +260,14 @@
       <tstamp>5AABC88B</tstamp>
     </comp>
     <comp ref="R1">
-      <value>470R</value>
+      <value>1k0</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="Manufacturer">Multicomp</field>
-        <field name="Note">470Ω/1% 0603 resistor</field>
-        <field name="Order Code">2447374</field>
+        <field name="Note">1.0kΩ/1% 0603 resistor</field>
+        <field name="Order Code">9238484</field>
         <field name="Package">0603</field>
-        <field name="Part Number">MCWR06X4700FTL</field>
+        <field name="Part Number">RC0603FR-071KL</field>
         <field name="Price">0.003</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -291,7 +275,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AABC99B</tstamp>
     </comp>
-    <comp ref="C20">
+    <comp ref="C19">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -302,11 +286,11 @@
         <field name="Part Number">C0402C103K5RACTU</field>
         <field name="Supplier">Farnell</field>
       </fields>
-      <libsource lib="pulse_stretcher-rescue" part="C-pulse_stretcher-rescue" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ACF0BCE</tstamp>
     </comp>
-    <comp ref="C21">
+    <comp ref="C20">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -321,7 +305,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ACF0BDA</tstamp>
     </comp>
-    <comp ref="R21">
+    <comp ref="R23">
       <value>300R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -337,7 +321,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDD22</tstamp>
     </comp>
-    <comp ref="R20">
+    <comp ref="R22">
       <value>300R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -353,7 +337,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDD2E</tstamp>
     </comp>
-    <comp ref="R19">
+    <comp ref="R21">
       <value>300R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -369,7 +353,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDD3A</tstamp>
     </comp>
-    <comp ref="U7">
+    <comp ref="U8">
       <value>AUC2G04</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
@@ -385,7 +369,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDD7E</tstamp>
     </comp>
-    <comp ref="C28">
+    <comp ref="C26">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -403,7 +387,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDDBD</tstamp>
     </comp>
-    <comp ref="R18">
+    <comp ref="R20">
       <value>300R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -419,7 +403,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDDE3</tstamp>
     </comp>
-    <comp ref="R23">
+    <comp ref="R25">
       <value>300R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -435,7 +419,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDE19</tstamp>
     </comp>
-    <comp ref="R22">
+    <comp ref="R24">
       <value>300R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -451,7 +435,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDE25</tstamp>
     </comp>
-    <comp ref="C30">
+    <comp ref="C28">
       <value>1n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -467,7 +451,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618DDEA9</tstamp>
     </comp>
-    <comp ref="C36">
+    <comp ref="C34">
       <value>1n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -515,7 +499,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61971095</tstamp>
     </comp>
-    <comp ref="C4">
+    <comp ref="C3">
       <value>10uV</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -531,7 +515,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>619C2436</tstamp>
     </comp>
-    <comp ref="C5">
+    <comp ref="C4">
       <value>10uV</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -547,7 +531,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>619C2647</tstamp>
     </comp>
-    <comp ref="C8">
+    <comp ref="C7">
       <value>1uC</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -578,7 +562,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61882F0C</tstamp>
     </comp>
-    <comp ref="R17">
+    <comp ref="R19">
       <value>27R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -594,7 +578,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61ED1507</tstamp>
     </comp>
-    <comp ref="C22">
+    <comp ref="C21">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -617,7 +601,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>620D2343</tstamp>
     </comp>
-    <comp ref="C6">
+    <comp ref="C5">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -696,15 +680,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>619B97A5</tstamp>
     </comp>
-    <comp ref="R11">
-      <value>2k2</value>
+    <comp ref="R13">
+      <value>1k5</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="Manufacturer">Yageo</field>
-        <field name="Note">2.2kΩ/1% 0603 resistor</field>
-        <field name="Order Code">9238522</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+        <field name="Order Code">9238506</field>
         <field name="Package">0603</field>
-        <field name="Part Number">RC0603FR-072K2L</field>
+        <field name="Part Number">RC0603FR-071K5L</field>
         <field name="Price">0.003</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -712,15 +696,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61AFE53E</tstamp>
     </comp>
-    <comp ref="R10">
-      <value>2k2</value>
+    <comp ref="R12">
+      <value>1k0</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="Manufacturer">Yageo</field>
-        <field name="Note">2.2kΩ/1% 0603 resistor</field>
-        <field name="Order Code">9238522</field>
+        <field name="Note">1.0kΩ/1% 0603 resistor</field>
+        <field name="Order Code">9238484</field>
         <field name="Package">0603</field>
-        <field name="Part Number">RC0603FR-072K2L</field>
+        <field name="Part Number">RC0603FR-071KL</field>
         <field name="Price">0.003</field>
         <field name="Supplier">Farnell</field>
       </fields>
@@ -728,23 +712,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61AFE553</tstamp>
     </comp>
-    <comp ref="U6">
-      <value>74LVC1G04</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Note">Single Inverter Gate</field>
-        <field name="Order Code">3006604</field>
-        <field name="Package">SOT-23-5</field>
-        <field name="Part Number">SN74LVC1G04DBVR</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="74xGxx" part="74LVC1G04" description="Single NOT Gate, Low-Voltage CMOS"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61C6EAAF</tstamp>
-    </comp>
-    <comp ref="R16">
+    <comp ref="R18">
       <value>27R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -760,7 +728,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61CE2241</tstamp>
     </comp>
-    <comp ref="C18">
+    <comp ref="C17">
       <value>20p</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -775,7 +743,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61CE2A55</tstamp>
     </comp>
-    <comp ref="C15">
+    <comp ref="C14">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -806,7 +774,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61B25FE3</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C15">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -817,11 +785,11 @@
         <field name="Part Number">C0402C103K5RACTU</field>
         <field name="Supplier">Farnell</field>
       </fields>
-      <libsource lib="pulse_stretcher-rescue" part="C-pulse_stretcher-rescue" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618E4F33</tstamp>
     </comp>
-    <comp ref="C17">
+    <comp ref="C16">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -836,7 +804,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>618E53FB</tstamp>
     </comp>
-    <comp ref="C13">
+    <comp ref="C12">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -847,11 +815,11 @@
         <field name="Part Number">C0402C103K5RACTU</field>
         <field name="Supplier">Farnell</field>
       </fields>
-      <libsource lib="pulse_stretcher-rescue" part="C-pulse_stretcher-rescue" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6191F729</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C13">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -866,7 +834,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6191F735</tstamp>
     </comp>
-    <comp ref="C24">
+    <comp ref="C23">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -877,11 +845,11 @@
         <field name="Part Number">C0402C103K5RACTU</field>
         <field name="Supplier">Farnell</field>
       </fields>
-      <libsource lib="pulse_stretcher-rescue" part="C-pulse_stretcher-rescue" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61953C0F</tstamp>
     </comp>
-    <comp ref="C25">
+    <comp ref="C24">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -896,7 +864,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61953C1B</tstamp>
     </comp>
-    <comp ref="C26">
+    <comp ref="C35">
       <value>1uC</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -912,7 +880,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61977A99</tstamp>
     </comp>
-    <comp ref="C27">
+    <comp ref="C36">
       <value>1uC</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -928,7 +896,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>619788A2</tstamp>
     </comp>
-    <comp ref="C23">
+    <comp ref="C22">
       <value>20p</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -943,7 +911,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61988908</tstamp>
     </comp>
-    <comp ref="C34">
+    <comp ref="C32">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -958,7 +926,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61990786</tstamp>
     </comp>
-    <comp ref="C35">
+    <comp ref="C33">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -969,11 +937,11 @@
         <field name="Part Number">C0402C103K5RACTU</field>
         <field name="Supplier">Farnell</field>
       </fields>
-      <libsource lib="pulse_stretcher-rescue" part="C-pulse_stretcher-rescue" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>619935FC</tstamp>
     </comp>
-    <comp ref="C29">
+    <comp ref="C27">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -984,25 +952,9 @@
         <field name="Part Number">C0402C103K5RACTU</field>
         <field name="Supplier">Farnell</field>
       </fields>
-      <libsource lib="pulse_stretcher-rescue" part="C-pulse_stretcher-rescue" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61A71834</tstamp>
-    </comp>
-    <comp ref="U8">
-      <value>AUC2G04</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="Note">Dual Inverter Gate</field>
-        <field name="Order Code">595-SN74AUC2G04DBVR</field>
-        <field name="Package">SOT-23-6</field>
-        <field name="Part Number">SN74AUC2G04DBVR</field>
-        <field name="Supplier">Mouser</field>
-      </fields>
-      <libsource lib="jakub" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61B80EFB</tstamp>
     </comp>
     <comp ref="U9">
       <value>AUC2G04</value>
@@ -1018,9 +970,25 @@
       </fields>
       <libsource lib="jakub" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
       <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B80EFB</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>AUC2G04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Dual Inverter Gate</field>
+        <field name="Order Code">595-SN74AUC2G04DBVR</field>
+        <field name="Package">SOT-23-6</field>
+        <field name="Part Number">SN74AUC2G04DBVR</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="jakub" part="74AUC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>61BC2269</tstamp>
     </comp>
-    <comp ref="C31">
+    <comp ref="C29">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -1038,7 +1006,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61C16876</tstamp>
     </comp>
-    <comp ref="C33">
+    <comp ref="C31">
       <value>1n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -1054,7 +1022,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61C16899</tstamp>
     </comp>
-    <comp ref="C32">
+    <comp ref="C30">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
@@ -1065,11 +1033,11 @@
         <field name="Part Number">C0402C103K5RACTU</field>
         <field name="Supplier">Farnell</field>
       </fields>
-      <libsource lib="pulse_stretcher-rescue" part="C-pulse_stretcher-rescue" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61C168B4</tstamp>
     </comp>
-    <comp ref="C19">
+    <comp ref="C18">
       <value>1n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -1085,7 +1053,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61E87BDF</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C11">
       <value>1n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
@@ -1101,7 +1069,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61EE98F0</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R16">
       <value>200R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -1117,7 +1085,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61A4BBCB</tstamp>
     </comp>
-    <comp ref="R15">
+    <comp ref="R17">
       <value>750</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -1133,7 +1101,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61A7B393</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C9">
       <value>4u7E</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
@@ -1149,7 +1117,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6196A3E8</tstamp>
     </comp>
-    <comp ref="C11">
+    <comp ref="C10">
       <value>4u7E</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
@@ -1165,7 +1133,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6196BCB7</tstamp>
     </comp>
-    <comp ref="C9">
+    <comp ref="C8">
       <value>4u7E</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
@@ -1213,21 +1181,141 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>619088EB</tstamp>
     </comp>
+    <comp ref="U6">
+      <value>74LVC1G240</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Note">Single Buffer/Driver With 3-State Output</field>
+        <field name="Order Code">3119613</field>
+        <field name="Package">SOT-23-5</field>
+        <field name="Part Number">SN74LVC1G240DBVR</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC1G240" description="Single Buffer/Driver Gate Tri-State, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61906649</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74LVC1G34</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Insruments</field>
+        <field name="Note">Single Buffer Gate</field>
+        <field name="Order Code">3119615</field>
+        <field name="Package">SOT-23-5</field>
+        <field name="Part Number">SN74LVC1G34DBVT</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC1G34" description="Single Buffef Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6197F7DA</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>SMA</value>
+      <footprint>jakub:SMA_5.0mm</footprint>
+      <fields>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Note">SMA coaxial right angle jack</field>
+        <field name="Order Code">1248989</field>
+        <field name="Package">SMA R/A</field>
+        <field name="Part Number">5-1814400-1</field>
+        <field name="Price">1.91</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="jakub" part="SMA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A22FEE</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Note">2.2kΩ/1% 0603 resistor</field>
+        <field name="Order Code">9238522</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">RC0603FR-072K2L</field>
+        <field name="Price">0.003</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ADD29A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>3k0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Note">3.0kΩ/1% 0603 resistor</field>
+        <field name="Order Code">3495834</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">RC0603FR-073KL</field>
+        <field name="Price">0.003</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B397F5</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">TDK</field>
+        <field name="Note">10nF/50V X7R 0402 ceramic capacitor</field>
+        <field name="Order Code">1414575</field>
+        <field name="Package">0402</field>
+        <field name="Part Number">C0402C103K5RACTU</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B9D92E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>orange</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Note">1.6x0.8mm orange SMD chip LED</field>
+        <field name="Order Code">2099222</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">KPT-1608SECK</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C57C22</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">1.0kΩ/1% 0603 resistor</field>
+        <field name="Order Code">9238484</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">RC0603FR-071KL</field>
+        <field name="Price">0.003</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C583EB</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="74xGxx" part="74LVC1G04">
+    <libpart lib="74xGxx" part="74LVC1G240">
       <aliases>
-        <alias>74LVC1GU04</alias>
-        <alias>74AHC1G04</alias>
-        <alias>74AHCT1G04</alias>
-        <alias>74AUC1G04</alias>
-        <alias>74AUP1G04</alias>
-        <alias>74AHC1GU04</alias>
-        <alias>74AHCT1GU04</alias>
-        <alias>74AUC1GU04</alias>
-        <alias>74AUP1GU04</alias>
+        <alias>74AUC1G240</alias>
+        <alias>74AUP1G240</alias>
       </aliases>
-      <description>Single NOT Gate, Low-Voltage CMOS</description>
+      <description>Single Buffer/Driver Gate Tri-State, Low-Voltage CMOS</description>
       <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
       <footprints>
         <fp>SOT*</fp>
@@ -1235,7 +1323,29 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">74LVC1G04</field>
+        <field name="Value">74LVC1G240</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="3state"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC1G34">
+      <aliases>
+        <alias>74AUP1G34</alias>
+      </aliases>
+      <description>Single Buffef Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G34</field>
       </fields>
       <pins>
         <pin num="2" name="~" type="input"/>
@@ -1520,124 +1630,139 @@
   <nets>
     <net code="1" name="+3V3">
       <node ref="U5" pin="8"/>
-      <node ref="R7" pin="2"/>
-      <node ref="U4" pin="8"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U6" pin="5"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U1" pin="1"/>
       <node ref="C19" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C21" pin="1"/>
+      <node ref="U7" pin="5"/>
       <node ref="C20" pin="1"/>
-    </net>
-    <net code="2" name="VPP">
-      <node ref="R6" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R1" pin="1"/>
       <node ref="C9" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="JP1" pin="3"/>
-      <node ref="C16" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C25" pin="1"/>
     </net>
-    <net code="3" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="4" name="Net-(R17-Pad2)">
-      <node ref="U5" pin="7"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="5" name="GND">
-      <node ref="D1" pin="1"/>
-      <node ref="C24" pin="2"/>
+    <net code="2" name="GND">
+      <node ref="C31" pin="2"/>
+      <node ref="C20" pin="2"/>
       <node ref="C29" pin="1"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C34" pin="1"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C27" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="U7" pin="2"/>
-      <node ref="C28" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C26" pin="2"/>
-      <node ref="U8" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U10" pin="2"/>
       <node ref="U9" pin="2"/>
+      <node ref="D1" pin="1"/>
       <node ref="C18" pin="2"/>
-      <node ref="J3" pin="5"/>
-      <node ref="C7" pin="2"/>
-      <node ref="J3" pin="4"/>
-      <node ref="J3" pin="3"/>
-      <node ref="J3" pin="2"/>
+      <node ref="C6" pin="2"/>
       <node ref="U2" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C11" pin="2"/>
       <node ref="R3" pin="2"/>
-      <node ref="C36" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="C30" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C28" pin="2"/>
       <node ref="L1" pin="4"/>
-      <node ref="C21" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U8" pin="2"/>
       <node ref="U4" pin="5"/>
       <node ref="U1" pin="3"/>
       <node ref="U1" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J2" pin="3"/>
       <node ref="R2" pin="2"/>
       <node ref="J2" pin="5"/>
-      <node ref="C20" pin="2"/>
       <node ref="J2" pin="4"/>
-      <node ref="C33" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="H4" pin="1"/>
-      <node ref="H3" pin="1"/>
-      <node ref="H2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C17" pin="2"/>
       <node ref="H1" pin="1"/>
-      <node ref="C11" pin="2"/>
       <node ref="C10" pin="2"/>
-      <node ref="U5" pin="5"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C32" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C19" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="U3" pin="2"/>
-      <node ref="R11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H3" pin="1"/>
       <node ref="C16" pin="2"/>
-      <node ref="R5" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C23" pin="2"/>
       <node ref="U6" pin="3"/>
-    </net>
-    <net code="6" name="/VBB">
+      <node ref="C24" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C36" pin="2"/>
       <node ref="C22" pin="2"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="U5" pin="4"/>
+      <node ref="C32" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C15" pin="2"/>
     </net>
-    <net code="7" name="/LVPECL_LOW_1V65">
-      <node ref="U4" pin="4"/>
+    <net code="3" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="4" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="5" name="Net-(C17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="6" name="/LVPECL_LOW_1V65">
       <node ref="U4" pin="2"/>
       <node ref="R8" pin="2"/>
       <node ref="R9" pin="1"/>
+      <node ref="U4" pin="4"/>
     </net>
-    <net code="8" name="Net-(C1-Pad2)">
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="L1" pin="1"/>
+    <net code="7" name="Net-(C14-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="8" name="+2V5">
+      <node ref="U3" pin="3"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U10" pin="5"/>
     </net>
     <net code="9" name="Net-(J1-Pad3)">
       <node ref="J1" pin="3"/>
@@ -1648,132 +1773,141 @@
     <net code="11" name="Net-(U5-Pad6)">
       <node ref="U5" pin="6"/>
     </net>
-    <net code="12" name="+2V5">
-      <node ref="U7" pin="5"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C28" pin="2"/>
-      <node ref="C36" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="C34" pin="2"/>
-      <node ref="U9" pin="5"/>
-      <node ref="C35" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C33" pin="1"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="U8" pin="5"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C27" pin="1"/>
-    </net>
-    <net code="13" name="+5V">
-      <node ref="U2" pin="1"/>
-      <node ref="L1" pin="3"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="14" name="Net-(R20-Pad2)">
-      <node ref="R20" pin="2"/>
-      <node ref="U8" pin="6"/>
-    </net>
-    <net code="15" name="Net-(C15-Pad1)">
+    <net code="12" name="VPP">
+      <node ref="C16" pin="1"/>
       <node ref="C15" pin="1"/>
-      <node ref="R15" pin="2"/>
-      <node ref="R14" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="16" name="Net-(C15-Pad2)">
-      <node ref="R11" pin="1"/>
-      <node ref="C15" pin="2"/>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="14" name="/VBB">
+      <node ref="C21" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="15" name="/SET">
+      <node ref="R13" pin="1"/>
+      <node ref="C14" pin="2"/>
       <node ref="U4" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad2)">
       <node ref="R10" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="17" name="Net-(R16-Pad1)">
-      <node ref="R16" pin="1"/>
-      <node ref="U6" pin="4"/>
+    <net code="17" name="/~ENABLE">
+      <node ref="U7" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="J4" pin="1"/>
     </net>
-    <net code="18" name="Net-(C18-Pad1)">
-      <node ref="R15" pin="1"/>
-      <node ref="R16" pin="2"/>
-      <node ref="C18" pin="1"/>
-    </net>
-    <net code="19" name="Net-(R23-Pad2)">
-      <node ref="R23" pin="2"/>
-      <node ref="U9" pin="4"/>
-    </net>
-    <net code="20" name="Net-(R19-Pad2)">
-      <node ref="R19" pin="2"/>
+    <net code="18" name="/~ENABLEBUF">
+      <node ref="R11" pin="2"/>
+      <node ref="U6" pin="1"/>
       <node ref="U7" pin="4"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R24-Pad2)">
+      <node ref="U10" pin="6"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R25-Pad2)">
+      <node ref="U10" pin="4"/>
+      <node ref="R25" pin="2"/>
     </net>
     <net code="21" name="Net-(R22-Pad2)">
       <node ref="R22" pin="2"/>
       <node ref="U9" pin="6"/>
     </net>
-    <net code="22" name="/INPUT">
-      <node ref="C6" pin="2"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="J2" pin="1"/>
+    <net code="22" name="/~Q">
+      <node ref="U5" pin="3"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U4" pin="6"/>
     </net>
-    <net code="23" name="/TERMINATION">
-      <node ref="R12" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="JP1" pin="2"/>
+    <net code="23" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
     <net code="24" name="/Q">
-      <node ref="R13" pin="2"/>
+      <node ref="R15" pin="2"/>
       <node ref="U5" pin="2"/>
       <node ref="U4" pin="7"/>
     </net>
-    <net code="25" name="/~Q">
-      <node ref="U4" pin="6"/>
-      <node ref="U5" pin="3"/>
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="26" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="27" name="/1.25V">
+    <net code="25" name="/1.25V">
       <node ref="R7" pin="1"/>
-      <node ref="R6" pin="2"/>
       <node ref="U1" pin="4"/>
+      <node ref="R6" pin="2"/>
     </net>
-    <net code="28" name="Net-(C1-Pad1)">
+    <net code="26" name="/TERMINATION">
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1"/>
       <node ref="C2" pin="1"/>
       <node ref="L1" pin="2"/>
       <node ref="J1" pin="1"/>
     </net>
-    <net code="29" name="Net-(R18-Pad2)">
-      <node ref="R18" pin="2"/>
-      <node ref="U7" pin="6"/>
+    <net code="28" name="/INPUT">
+      <node ref="J2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
     </net>
-    <net code="30" name="/BUFFEREDOUT">
-      <node ref="R18" pin="1"/>
-      <node ref="R22" pin="1"/>
-      <node ref="R20" pin="1"/>
+    <net code="29" name="Net-(C1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="30" name="+5V">
+      <node ref="C7" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="31" name="/OUTPUT">
+      <node ref="U9" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U8" pin="1"/>
       <node ref="R19" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R23-Pad2)">
+      <node ref="U9" pin="4"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="34" name="/BUFFEREDOUT">
+      <node ref="R25" pin="1"/>
       <node ref="J3" pin="1"/>
       <node ref="R21" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R24" pin="1"/>
       <node ref="R23" pin="1"/>
+      <node ref="R20" pin="1"/>
     </net>
-    <net code="31" name="Net-(R21-Pad2)">
-      <node ref="U8" pin="4"/>
-      <node ref="R21" pin="2"/>
-    </net>
-    <net code="32" name="/OUTPUT">
-      <node ref="U7" pin="1"/>
-      <node ref="U6" pin="2"/>
-      <node ref="U7" pin="3"/>
-      <node ref="C23" pin="1"/>
-      <node ref="U9" pin="3"/>
-      <node ref="R17" pin="1"/>
-      <node ref="U8" pin="3"/>
-      <node ref="U9" pin="1"/>
-      <node ref="U8" pin="1"/>
+    <net code="35" name="Net-(R20-Pad2)">
+      <node ref="U8" pin="6"/>
+      <node ref="R20" pin="2"/>
     </net>
   </nets>
 </export>

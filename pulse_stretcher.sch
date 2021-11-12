@@ -2974,4 +2974,14 @@ Wire Wire Line
 	1450 7000 1450 7100
 Wire Wire Line
 	1450 7000 1700 7000
+Wire Notes Line
+	8900 4850 9600 4850
+Wire Notes Line
+	9600 4850 9600 5750
+Wire Notes Line
+	9600 5750 8900 5750
+Wire Notes Line
+	8900 5750 8900 4850
+Text Notes 8900 4800 0    50   ~ 0
+Optional\nUse 0Ω R19 to bypass
 $EndSCHEMATC

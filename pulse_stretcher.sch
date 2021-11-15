@@ -874,11 +874,11 @@ F 0 "C26" V 11050 800 50  0000 C CNN
 F 1 "100n" V 11350 800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 650 50  0001 C CNN
 F 3 "~" H 11200 800 50  0001 C CNN
-F 4 "MC0603B104K500" H 11200 800 50  0001 C CNN "Part Number"
-F 5 "Multicomp" H 11200 800 50  0001 C CNN "Manufacturer"
+F 4 "C1608X7R1H104M080AA" H 11200 800 50  0001 C CNN "Part Number"
+F 5 "TDK" H 11200 800 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 11200 800 50  0001 C CNN "Package"
 F 7 "Farnell" H 11200 800 50  0001 C CNN "Supplier"
-F 8 "1759122" H 11200 800 50  0001 C CNN "Order Code"
+F 8 "2522004" H 11200 800 50  0001 C CNN "Order Code"
 F 9 "100nF/50V X7R 0603 ceramic capacitor" H 11200 800 50  0001 C CNN "Note"
 F 10 "Seeed OPL" H 11200 800 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 11200 800 50  0001 C CNN "Alt. Order Code"
@@ -1903,14 +1903,14 @@ U 1 1 61CE2A55
 P 7950 7000
 F 0 "C17" H 7975 7100 50  0000 L CNN
 F 1 "20p" H 7975 6900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7988 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 6850 50  0001 C CNN
 F 3 "" H 7950 7000 50  0000 C CNN
-F 4 "MC0402N200J500CT" H 7950 7000 60  0001 C CNN "Part Number"
+F 4 "MC0603N200J500CT" H 7950 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 7950 7000 60  0001 C CNN "Manufacturer"
-F 6 "0402" H 7950 7000 60  0001 C CNN "Package"
+F 6 "0603" H 7950 7000 60  0001 C CNN "Package"
 F 7 "Farnell" H 7950 7000 60  0001 C CNN "Supplier"
-F 8 "1758948" H 7950 7000 60  0001 C CNN "Order Code"
-F 9 "20pF/50V C0G 0402 ceramic capacitor" H 7950 7000 60  0001 C CNN "Note"
+F 8 "2627461" H 7950 7000 60  0001 C CNN "Order Code"
+F 9 "20pF/50V C0G 0603 ceramic capacitor" H 7950 7000 60  0001 C CNN "Note"
 	1    7950 7000
 	1    0    0    -1  
 $EndComp
@@ -2133,14 +2133,14 @@ U 1 1 61988908
 P 9400 5250
 F 0 "C22" H 9425 5350 50  0000 L CNN
 F 1 "20p" H 9425 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9438 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9438 5100 50  0001 C CNN
 F 3 "" H 9400 5250 50  0000 C CNN
-F 4 "MC0402N200J500CT" H 9400 5250 60  0001 C CNN "Part Number"
+F 4 "MC0603N200J500CT" H 9400 5250 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 9400 5250 60  0001 C CNN "Manufacturer"
-F 6 "0402" H 9400 5250 60  0001 C CNN "Package"
+F 6 "0603" H 9400 5250 60  0001 C CNN "Package"
 F 7 "Farnell" H 9400 5250 60  0001 C CNN "Supplier"
-F 8 "1758948" H 9400 5250 60  0001 C CNN "Order Code"
-F 9 "20pF/50V C0G 0402 ceramic capacitor" H 9400 5250 60  0001 C CNN "Note"
+F 8 "2627461" H 9400 5250 60  0001 C CNN "Order Code"
+F 9 "20pF/50V C0G 0603 ceramic capacitor" H 9400 5250 60  0001 C CNN "Note"
 	1    9400 5250
 	1    0    0    -1  
 $EndComp
@@ -2315,11 +2315,11 @@ F 0 "C29" V 11050 3400 50  0000 C CNN
 F 1 "100n" V 11350 3400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 3250 50  0001 C CNN
 F 3 "~" H 11200 3400 50  0001 C CNN
-F 4 "MC0603B104K500" H 11200 3400 50  0001 C CNN "Part Number"
-F 5 "Multicomp" H 11200 3400 50  0001 C CNN "Manufacturer"
+F 4 "C1608X7R1H104M080AA" H 11200 3400 50  0001 C CNN "Part Number"
+F 5 "TDK" H 11200 3400 50  0001 C CNN "Manufacturer"
 F 6 "0603" H 11200 3400 50  0001 C CNN "Package"
 F 7 "Farnell" H 11200 3400 50  0001 C CNN "Supplier"
-F 8 "1759122" H 11200 3400 50  0001 C CNN "Order Code"
+F 8 "2522004" H 11200 3400 50  0001 C CNN "Order Code"
 F 9 "100nF/50V X7R 0603 ceramic capacitor" H 11200 3400 50  0001 C CNN "Note"
 F 10 "Seeed OPL" H 11200 3400 50  0001 C CNN "Alt. Supplier"
 F 11 "302010138" H 11200 3400 50  0001 C CNN "Alt. Order Code"
@@ -2489,7 +2489,7 @@ L Device:R R17
 U 1 1 61A7B393
 P 7600 6750
 F 0 "R17" V 7680 6750 50  0000 C CNN
-F 1 "750" V 7600 6750 50  0000 C CNN
+F 1 "750R" V 7600 6750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 6750 50  0001 C CNN
 F 3 "" H 7600 6750 50  0000 C CNN
 F 4 "RC0603FR-07750RL" H 7600 6750 60  0001 C CNN "Part Number"
@@ -2858,7 +2858,7 @@ Wire Wire Line
 Text Label 9850 9000 0    50   ~ 0
 ~ENABLEBUF
 Text Notes 6350 9500 0    60   ~ 0
-Enable input is active low.\nEnabled means the 3-state buffer U? is enabled.\nEnabled means the SET signal is at 1650mV and output of U? sets the flip-flop U4.\nDisabled means the 3-state buffer U? is high-Z output.\nDisabled means the SET signal is at 2200mV and flip-flop U4 is always HIGH.\n
+Enable input is active low.\nEnabled means the 3-state buffer U6 is enabled.\nEnabled means the SET signal is at 1650mV and output of U6 sets the flip-flop U4.\nDisabled means the 3-state buffer U6 is high-Z output.\nDisabled means the SET signal is at 2200mV and flip-flop U4 is always HIGH.\n
 $Comp
 L pulse_stretcher-rescue:GND-pulse_stretcher-rescue #PWR045
 U 1 1 61B9D238
@@ -2899,7 +2899,7 @@ F 3 "" H 10750 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 12550 8750 0    50   ~ 0
-Enable Input\nActive Low\nZ=2.2kΩ
+Enable Input\nActive Low\nZ=2.2kΩ\nHigh 2V-5V
 Text Label 5750 6750 0    50   ~ 0
 SET
 Wire Wire Line
